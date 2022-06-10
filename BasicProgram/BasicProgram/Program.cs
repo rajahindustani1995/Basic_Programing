@@ -21,9 +21,9 @@
             switch (Problem)
             {
                 
-                case 2:
-                    LeapYear leapYear = new LeapYear();
-                    leapYear.Leap_Year();
+                case 3:
+                    PowerOfTwo powerOfTwo = new PowerOfTwo();
+                    powerOfTwo.Power();
                     break;
             }
         }
