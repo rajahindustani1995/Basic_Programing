@@ -15,6 +15,16 @@
             Console.WriteLine("8 for Check Whether a Number is Even or Odd");
             Console.WriteLine("9 for Check Whether an Alphabet is Vowel or Consonant");
             Console.WriteLine("10 for Find the Largest Among Three Numbers");
+
+            int Problem = Convert.ToInt32(Console.ReadLine());
+
+            switch (Problem)
+            {
+                case 1:
+                    FlipCoin flipCoin = new FlipCoin();
+                    flipCoin.Coin();
+                    break;
+            }
         }
     }
 }
