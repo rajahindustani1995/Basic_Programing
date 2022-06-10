@@ -20,9 +20,10 @@
 
             switch (Problem)
             {
-                case 1:
-                    FlipCoin flipCoin = new FlipCoin();
-                    flipCoin.Coin();
+                
+                case 2:
+                    LeapYear leapYear = new LeapYear();
+                    leapYear.Leap_Year();
                     break;
             }
         }
